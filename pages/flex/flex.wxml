@@ -1,0 +1,52 @@
+<scroll-view scroll-y="true">
+    <view class="title"><text>不管是什么布局，Flex往往都可以几行命令搞定</text></view>
+    <view class="title-img"><image src="../../images/bg2015071327.png"/></view>
+    <view>
+       <view class="sm-title"><text>1.骰子布局</text></view>
+       <view class="flex-content">
+            <view class="parent">
+                <view class="son">1</view>
+            </view>
+       </view>
+       <view class="flex-content">
+            <view class="parent center-top">
+                <view class="son">1</view>
+            </view>
+       </view>
+       <view class="flex-content">
+            <view class="parent right-top">
+                <view class="son">1</view>
+            </view>
+       </view>
+       <view class="flex-content">
+            <view class="parent left-center">
+                <view class="son">1</view>
+            </view>
+       </view>
+       <view class="flex-content">
+            <view class="parent center-center">
+                <view class="son">1</view>
+            </view>
+       </view>
+       <view class="flex-content">
+            <view class="parent right-center">
+                <view class="son">1</view>
+            </view>
+       </view>
+       <view class="flex-content">
+            <view class="parent left-bottom">
+                <view class="son">1</view>
+            </view>
+       </view>
+       <view class="flex-content">
+            <view class="parent center-bottom">
+                <view class="son">1</view>
+            </view>
+       </view>
+       <view class="flex-content">
+            <view class="parent right-bottom">
+                <view class="son">1</view>
+            </view>
+       </view>
+    </view>
+</scroll-view>

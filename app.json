@@ -1,7 +1,8 @@
 {
   "pages":[
     "pages/index/index",
-    "pages/checkbox-radio/checkbox-radio"
+    "pages/checkbox-radio/checkbox-radio",
+    "pages/flex/flex"
   ],
   "window":{
     "backgroundTextStyle":"light",

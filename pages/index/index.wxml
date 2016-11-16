@@ -6,5 +6,6 @@
   </view>
   <view>
     <navigator url="../checkbox-radio/checkbox-radio">checkbox-radio</navigator>
+    <navigator url="../flex/flex">flex</navigator>
   </view>
 </view>

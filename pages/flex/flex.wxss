@@ -1,0 +1,80 @@
+.title{
+    width: 750rpx;
+    text-align: center;
+    font-size: 34rpx;
+    color: #353535;
+}
+.title-img image{
+    width: 750rpx;
+    height: 380rpx;
+}
+.sm-title{
+    padding-left: 40rpx;
+    color: #888;
+    font-size: 34rpx;
+}
+.flex-content{
+    width: 300rpx;
+    height: 300rpx;
+    margin: 10rpx  auto 0 auto;
+    background: #ccc;
+}
+.flex-content .son{
+    width: 100rpx;
+    height: 100rpx;
+    background: #888;
+    text-align: center;
+    line-height: 100rpx;
+    color:#eee;
+}
+.parent.left-top{
+    display: flex;
+}
+.parent.center-top{
+    display: flex;
+    justify-content: center;
+}
+.parent.right-top{
+    display: flex;
+    justify-content: flex-end;
+}
+.parent.left-center{
+    width: 300rpx;
+    height: 300rpx;
+    display: flex;
+    align-items: center;
+}
+.parent.center-center{
+    width: 300rpx;
+    height: 300rpx;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.parent.right-center{
+    width: 300rpx;
+    height: 300rpx;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.parent.left-bottom{
+    width: 300rpx;
+    height: 300rpx;
+    display: flex;
+    align-items: flex-end;
+}
+.parent.center-bottom{
+    width: 300rpx;
+    height: 300rpx;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.parent.right-bottom{
+    width: 300rpx;
+    height: 300rpx;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
