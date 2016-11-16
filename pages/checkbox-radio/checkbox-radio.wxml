@@ -1,0 +1,30 @@
+<view>
+   <view class="checkbox-wrap">
+     <checkbox-group bindchange="checkboxChange">
+        <view class="check_box" bindtap="changeBox1">
+          <checkbox value="1"/>
+          <label class="{{checkbox1 ? 'checkbox-in' : 'checkbox'}}" checked="{{checkbox1}}" ></label>
+          <text>复选一</text>
+        </view>
+        <view class="check_box" bindtap="changeBox2">
+          <checkbox value="1"/>
+          <label class="{{checkbox2 ? 'checkbox-in' : 'checkbox'}}" checked="{{checkbox2}}"></label>
+          <text>复选一</text>
+        </view>
+     </checkbox-group>
+   </view>
+   <view class="radio-wrap">
+    <radio-group class="radio-group" bindchange="radioChange">
+        <view class="radio_box" bindtap="changeRadio1">
+            <radio value="1"/>
+            <label class="{{radio1 ? 'radio' : ''}}"></label>
+            <text>单项一</text>
+        </view>
+        <view class="radio_box" bindtap="changeRadio2">
+            <radio value="2"/>
+            <label class="{{radio2 ? 'radio' : ''}}"></label>
+            <text>单项二</text>
+        </view>
+    </radio-group>
+   </view>
+</view>
